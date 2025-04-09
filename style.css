@@ -1,7 +1,7 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
   background-color: #fff0f5;
   color: #333;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -9,25 +9,78 @@ body {
 
 header {
   background-color: #ffc4e1;
-  padding: 50px 20px;
+  padding: 60px 20px;
 }
 
-section {
-  padding: 30px 20px;
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  color: #c2185b;
+}
+
+h2 {
+  color: #c2185b;
+  margin-top: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  border: 3px solid #ff80ab;
+  margin-top: 20px;
+}
+
+.glow-btn {
+  background-color: #ff80ab;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  box-shadow: 0 0 15px #ff80ab;
+  transition: all 0.3s ease;
+}
+
+.glow-btn:hover {
+  background-color: #f06292;
+  box-shadow: 0 0 20px #f06292;
+}
+
+.secret-btn {
+  margin-top: 30px;
+  background-color: #f8bbd0;
+  color: #880e4f;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}
+
+.hidden {
+  display: none;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #8e24aa;
+  font-style: italic;
 }
 
 footer {
   background-color: #ffddee;
   padding: 20px;
   font-size: 14px;
-}
-
-a {
-  color: #ff4f8b;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
+  margin-top: 60px;
 }
