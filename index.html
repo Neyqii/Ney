@@ -2,35 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
+    <title>About Ney</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Custom Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Hi, I’m [Your Name]</h1>
-      <p>Marketing student, designer, and social media enthusiast 💫</p>
+      <h1>Hey, I'm Ney 💖</h1>
+      <p>A marketing student, social media lover, and self-made designer with a soft spot for love & aesthetic things ✨</p>
     </header>
 
-    <section>
-      <h2>✨ About Me</h2>
+    <section class="profile-photo">
+      <img src="your-photo.jpg" alt="Photo of Ney" />
+    </section>
+
+    <section class="about-me">
+      <h2>About Me</h2>
       <ul>
-        <li>Age: [Your Age]</li>
-        <li>Currently studying Marketing (2nd year)</li>
-        <li>Certificate in Business Principles</li>
-        <li>5+ years helping small businesses with design and branding</li>
+        <li>📚 2nd-year Marketing Student</li>
+        <li>💼 High Certificate in Business Principles & Practice</li>
+        <li>🎨 Helping small businesses glow-up with branding</li>
+        <li>🖥️ Self-taught coder in progress</li>
       </ul>
     </section>
 
-    <section>
-      <h2>🌐 My World</h2>
-      <p>
-        <a href="https://www.tiktok.com/@yourusername" target="_blank">TikTok</a> |
-        <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a>
-      </p>
+    <section class="social-links">
+      <h2>🌐 Let’s Be Social</h2>
+      <a href="https://tiktok.com/@yourhandle" target="_blank" class="glow-btn">TikTok</a>
+      <a href="https://instagram.com/yourhandle" target="_blank" class="glow-btn">Instagram</a>
+    </section>
+
+    <section class="fun-facts">
+      <h2>💡 Ney in 5 Emojis</h2>
+      <p>💅📱🧠💖🎀</p>
+    </section>
+
+    <section class="secret">
+      <button onclick="showSecret()" class="secret-btn">Click for a secret message 💌</button>
+      <p id="secretMessage" class="hidden">You’re not just visiting a website — you’re witnessing a glow-up in real time. 🌸</p>
     </section>
 
     <footer>
-      <p>Made with love by me 💖</p>
+      <p>Website handcrafted by me 💻💖</p>
     </footer>
+
+    <script>
+      function showSecret() {
+        document.getElementById("secretMessage").classList.toggle("hidden");
+      }
+    </script>
   </body>
 </html>
